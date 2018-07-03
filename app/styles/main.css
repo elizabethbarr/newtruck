@@ -1,0 +1,548 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body, html {
+    height: 100%;
+}
+body {
+  font-family: 'Bitter', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bluelink {
+  color: #31C4F3;
+  text-decoration: none;
+}
+
+.bluelink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.bluelink:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+.bluelink:visited {
+  color: #31C4F3;
+  text-decoration: none;
+}
+
+.orangelink {
+  color: #FD5E0F;
+  text-decoration: none;
+}
+
+.orangelink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.orangelink:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+.orangelink:visited {
+  color: #FD5E0F;
+  text-decoration: none;
+}
+
+.graylink {
+  color: #999999;
+  text-decoration: none;
+}
+
+.graylink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.graylink:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+.graylink:visited {
+  color: #999999;
+  text-decoration: none;
+}
+
+.whitelink {
+  color: white;
+  text-decoration: none;
+}
+  
+.whitelink:hover {
+  color: #FD5E0F;
+  text-decoration: none;
+}
+
+.whitelink:active {
+  color: #FD5E0F;
+  text-decoration: none;
+}
+
+.whitelink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.lightest {
+  color: #606060;
+  opacity: 0.5;
+}
+
+.navbar-brand {
+  padding-top: 0.1em;
+}
+
+.navbar-container {
+  padding: 0 5% 0 5%;
+}
+
+/* index.html */
+
+.hero-container {
+    background: url(../images/foodtruckfans.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+  font-family: 'Bitter', serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Bitter', serif;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero-content {
+  padding-top: 22%;
+  color: white;
+  text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.button-content {
+  padding-top: 2%;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.down-arrow {
+  padding-top: 2%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* middle container */
+.middle-container {
+  padding: 4% 10% 4% 10%;
+  background-image: linear-gradient(to right bottom, #adadad, #bbbbbb, #c9c9c9, #d7d7d7, #e6e6e6);
+ }
+
+.middle-content {
+  color: #333333;
+  text-align: center;
+}
+
+.effortless {
+  color: #FD5E0F;
+  text-transform: uppercase;
+}
+
+.list {
+  color: white;
+  font-size: 2.5em;
+  line-height: 1.25;
+  padding-top: 2%;
+}
+
+.hunger {
+  padding-top: 2%;
+  font-size: 1.25em;
+  color: white;
+}
+
+.demo {
+  padding-top: 5%;
+  font-size: 1.25em;
+  text-align: right;
+}
+
+/* lower container */
+.lower-container {
+  padding: 4%;
+}
+
+.lower-content {
+}
+
+.left-lower {
+}
+
+.chances {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+}
+
+.crapshoot {
+  padding-top: 3%;
+  font-size: 2em;
+}
+
+.feeds {
+  padding-top: 3%;
+  font-size: 1em;
+}
+
+.hunt {
+  padding-top: 3%;
+  font-size: 1em;
+}
+
+.searching {
+  font-size: 1.25em;
+  font-weight: 400;
+  padding-top: 3%;
+}
+
+.right-lower {
+  position: relative;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 2.5em;
+    color: white;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}   
+
+/* workswith container */
+.workswith-container {
+  padding: 4% 2% 4% 2%;
+  background-image: linear-gradient(to right bottom, #e6e6e6, #d7d7d7, #c9c9c9, #bbbbbb, #adadad);
+}
+
+.workswith-content {
+  height: 100%;
+  width: 100%;
+}
+
+.plays {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-bottom: 2%;
+}
+
+.alexa-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ask {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 2%;
+}
+
+/* hr container */
+.hr-content {
+}
+
+.yeah {
+  font-size: 1.25em;
+  display: block;
+  text-align: right;
+  color: #ADADAD;
+  vertical-align: middle;
+  padding-top: 5%;
+}
+
+/* pricing container */
+.pricing-container {
+  background-image: linear-gradient(to right bottom, #adadad, #bbbbbb, #c9c9c9, #d7d7d7, #e6e6e6);
+  padding-bottom: 2%;
+}
+
+.pricing-content {
+  color: #f8f8f8;
+  padding: 4% 10% 4% 10%;
+}
+
+.pricing-hed {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-bottom: 1%;
+}
+
+.investment {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-top: 8%;
+ }
+ 
+.custom {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 3%;
+}
+
+.coding {
+  padding-left: 3%;
+}
+
+.daily {
+  padding: 3% 0 4% 3%;
+
+}
+
+.pricing-panel {
+  padding: 3%;
+}
+
+.panel-title {
+  text-align: center;
+  color: #FD5E0F;
+}
+
+.unlimited {
+  color: #6F6C6D;
+}
+
+.dot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10%;
+  margin-top: -30%;
+}
+
+.panel-footer {
+  color: #6F6C6D;
+  text-align: center;
+}
+
+/* footer */
+.footer-container {
+  padding: 4% 8% 2% 8%;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.footer-content {
+  color: #999999;
+}
+
+.notlink {
+  opacity: 0.75;
+}
+
+.footer-left-top {
+}
+
+.footer-left-middle {
+  padding-top: 4%;
+}
+
+.footer-left-bottom {
+  padding-top: 4%;
+}
+
+.footer-middle-top {
+  text-align: center;
+}
+
+.footer-middle-bottom {
+  padding-top: 55%;
+  font-size: 9px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.footer-right-one {
+  padding-left: 50%;
+}
+
+.footer-right-two {
+  padding: 4% 0 0 50%;
+}
+
+.footer-right-three {
+  padding: 4% 0 0 50%;
+}
+
+.footer-right-four {
+  padding: 4% 0 0 50%;
+}
+
+.footer-right-five {
+  padding: 4% 0 0 50%;
+}
+
+.icon {
+  padding-left: 4%;
+}
+
+/* faqs.html */
+.faqs-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* help.html */
+.help-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+.help-form {
+  padding-bottom: 5%;
+}
+
+/* howitworks.html */
+.howitworks-hed {
+  padding: 5% 10% 2% 20%;
+  color: white;
+}
+
+.howitworks-photocontainer {
+  background: url(../images/echo.jpg);
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.howitworks-container {
+  padding: 13% 8% 4% 8%;
+  vertical-align: center;
+}
+
+.steps {
+  text-align: center;
+}
+
+.demo-container {
+  padding: 4% 8% 4% 8%;
+}
+
+.demo-hed {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-bottom: 2%;
+} 
+
+/* login.html */
+.login-container {
+  padding: 5%;
+  color: #fff;
+  background: #63738a;
+  font-family: 'Open Sans', sans-serif;
+}  
+
+/* press.html */
+.press-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* privacy.html */
+.privacy-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* signup.html */
+.conditions-container {
+  padding-top: 8%;
+  background: #63738a;
+  color: white;
+}
+
+.moonclerk-container {
+  padding: 5% 20% 5% 20%;
+  background: #63738a;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* termsconditions.html */
+.terms-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* vendorform.html and venueform.html */
+.form-container {
+  padding-top: 20%;
+}
+
+.invisible-hed {
+  opacity: 0;
+}
+
+.invisible-bullet {
+  opacity: 0;
+}
+
+/* alt-footer */
+.alt-footer-container {
+  padding: 2% 8% 2% 8%;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.alt-footer-middle-middle {
+  text-align: center;
+}
+
+.alt-footer-middle-bottom {
+  padding-top: 10%;
+  font-size: 9px;
+  text-align: center;
+  opacity: 0.75;
+}
